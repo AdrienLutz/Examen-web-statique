@@ -1,0 +1,53 @@
+/* GENERAL */
+*{font-family: quicksand;}
+.bordertopbrown{border-top: 5px solid #b08079;}
+.CTA1{text-align: center; padding: 5px; background-color: transparent; color: black; border: solid 1px black, border-radius: 0px; transition: all 0.5s ease-out;}
+.CTA1:hover{background-color: #6b4c48; color: white; border: solid 1px white; border-radius: 0px}
+.CTA2{padding: 10px 20px; width: 250px;text-align: center; text-align: center; padding: 5px; border-radius: 0px;  border: solid 1px white; background: transparent; color:white; transition: all 0.5s ease-in;}
+.CTA2:hover{background-color: #6b4c48; opacity: 1px; border-radius: 20px;}
+h2{color:rgb(156, 30, 30); font-weight: bold;}
+span {border-top:1px solid white; border-bottom:1px solid white; padding:3px;}
+/* .navfixed {position: fixed; top: 0;left: 0; z-index: 100} */
+
+
+/* HEADER */
+#header{position: relative;z-index: 100;border-top: 2px solid white;border-bottom: 2px solid white; opacity:0.2px;}
+.nav-link{color: #f1f1f1; font-size: 20px;}
+.nav-link:hover{color:rgb(156, 30, 30); font-size: 20px;}
+.navbar-nav .nav-link.active{color:rgb(156, 30, 30);text-decoration: underline;text-transform: uppercase; font-weight: bold; font-size: 20px;}
+.navbar-nav .nav-link.active:hover{color:rgb(156, 30, 30);font-weight: bold; font-size: 20px;}
+
+/* 1. SLIDER */
+#slider {margin-top: -125px;position: relative;z-index: 10;}
+
+/* 2. PARCOURS */
+.colrelative{margin-top: -90px; position: relative; z-index: 100}
+hr {color: rgb(156, 30, 30)}
+
+/* 3. SOINS */
+#soins {background-color: #DCDCDC;}
+#soins a{text-decoration: none; color:rgb(156, 30, 30); font-weight: bold;}
+.bordertopred{border-top: solid 1px rgb(156, 30, 30); padding-top:20px;}
+
+
+/* 6. RDV */
+#rdv{background-image: url(../images/ayuverda-rdv-2278-582.png); background-repeat: no-repeat;
+    background-size: cover; background-position: center center;}
+
+/* FOOTER */
+.bg-brown{background-color: #6b4c48;}
+.liensfooter{text-decoration: none; color:currentColor}
+.footerline{border-bottom: 2px solid white;}
+.footerseparator a::after {
+    content: "";
+    background-color: white;
+    width: 1px;
+    height: 10px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 3px;
+    background-repeat: no-repeat;}
+
+    @media screen and (min-width: 992px) and (max-width:1199px){
+        .colrelative{margin-top: 0px; position: relative;}}
+/* écran - de 1200 px */
